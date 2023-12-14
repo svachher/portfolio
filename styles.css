@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222; /* Greyish black background */
+    color: #00ffcc; /* Mint green font color */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    padding: 40px;
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Introduction text styling */
+#introduction {
+    color: #fff; /* Initial white color */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+#introduction:hover {
+    color: #00ffcc; /* Mint green color on hover */
+}
+
+/* Add more styles as needed */
